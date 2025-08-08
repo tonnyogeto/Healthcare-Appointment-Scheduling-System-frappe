@@ -1,0 +1,9 @@
+2025-07-22 10:33:58,420 ERROR frappe New Exception collected in error log
+Site: life.health
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Patient","name":"new-patient-nvkjbamuem","__islocal":1,"__unsaved":1,"owner":"Administrator","gender":"Male","age":30,"name1":"Tim","last_name":"Dancan","phone_number":"+254-711119900","idpassport":"/private/files/WhatsApp Image 2024-12-19 at 11.32.08.jpeg","insurance_info":"/private/files/hcia-datacom-mock-exam-10-pdf.pdf"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-07-29 12:17:54,236 ERROR frappe New Exception collected in error log
+Site: life.health
+Form Dict: {'doc': '{"name":"AP-0037","owner":"Administrator","creation":"2025-07-29 12:06:13.773238","modified":"2025-07-29 12:11:27.885765","modified_by":"Administrator","docstatus":0,"idx":0,"patient":"P-0036","doctor":"DR-0031","appointment_date":"2025-08-06","appointment_time":"09:00:00","duration":30,"status":"Booked","doctype":"Appointment","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-07-29 12:18:57,556 ERROR frappe New Exception collected in error log
+Site: life.health
+Form Dict: {'doc': '{"name":"AP-0037","owner":"Administrator","creation":"2025-07-29 12:06:13.773238","modified":"2025-07-29 12:11:27.885765","modified_by":"Administrator","docstatus":0,"idx":0,"patient":"P-0036","doctor":"DR-0031","appointment_date":"2025-08-06","appointment_time":"09:00:00","duration":30,"status":"Booked","doctype":"Appointment","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

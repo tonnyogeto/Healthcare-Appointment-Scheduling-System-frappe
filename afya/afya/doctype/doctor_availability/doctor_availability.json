@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DA-{####}",
+ "creation": "2025-07-29 10:07:15.800426",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "break_end_section",
+  "day_of_week",
+  "start_time",
+  "end_time",
+  "column_break_ijfb",
+  "break_start",
+  "break_end"
+ ],
+ "fields": [
+  {
+   "fieldname": "break_end_section",
+   "fieldtype": "Section Break",
+   "label": "Break End"
+  },
+  {
+   "fieldname": "day_of_week",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Day of Week",
+   "options": "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday",
+   "reqd": 1
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Start Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "End Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ijfb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "break_start",
+   "fieldtype": "Time",
+   "label": "Break Start"
+  },
+  {
+   "fieldname": "break_end",
+   "fieldtype": "Time",
+   "label": "Break End"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-29 10:14:07.724606",
+ "modified_by": "Administrator",
+ "module": "Afya",
+ "name": "Doctor Availability",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

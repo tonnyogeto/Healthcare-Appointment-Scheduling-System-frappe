@@ -1,0 +1,21 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.74.1"
+    },
+    "afya": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "083270f6745dd8e2376bda265ca83a5ad9eda2b7",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    }
+}

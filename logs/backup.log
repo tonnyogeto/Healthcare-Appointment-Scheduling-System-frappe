@@ -1,0 +1,78 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250722_120002-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-22 12:00:03.933391
+Config  : ./life.health/private/backups/20250722_120002-life_health-site_config_backup.json 116.0B
+Database: ./life.health/private/backups/20250722_120002-life_health-database.sql.gz         234.4KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250723_120003-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-23 12:00:05.374383
+Config  : ./life.health/private/backups/20250723_120003-life_health-site_config_backup.json 116.0B
+Database: ./life.health/private/backups/20250723_120003-life_health-database.sql.gz         237.7KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250724_120002-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-24 12:00:03.593837
+Config  : ./life.health/private/backups/20250724_120002-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250724_120002-life_health-database.sql.gz         254.1KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250725_120003-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-25 12:00:04.944646
+Config  : ./life.health/private/backups/20250725_120003-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250725_120003-life_health-database.sql.gz         257.0KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250727_120004-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-27 12:00:05.871309
+Config  : ./life.health/private/backups/20250727_120004-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250727_120004-life_health-database.sql.gz         257.0KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250727_180003-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-27 18:00:04.019129
+Config  : ./life.health/private/backups/20250727_180003-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250727_180003-life_health-database.sql.gz         257.0KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250728_000003-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-28 00:00:04.642389
+Config  : ./life.health/private/backups/20250728_000003-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250728_000003-life_health-database.sql.gz         257.0KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250729_120003-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-29 12:00:05.409203
+Config  : ./life.health/private/backups/20250729_120003-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250729_120003-life_health-database.sql.gz         264.6KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250730_120002-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-30 12:00:04.094186
+Config  : ./life.health/private/backups/20250730_120002-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250730_120002-life_health-database.sql.gz         272.1KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250731_120002-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-07-31 12:00:03.168763
+Config  : ./life.health/private/backups/20250731_120002-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250731_120002-life_health-database.sql.gz         266.4KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250801_120004-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-08-01 12:00:05.676408
+Config  : ./life.health/private/backups/20250801_120004-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250801_120004-life_health-database.sql.gz         267.3KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250804_180003-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-08-04 18:00:04.174724
+Config  : ./life.health/private/backups/20250804_180003-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250804_180003-life_health-database.sql.gz         267.3KiB
+Backup for Site life.health has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7747e9f47bf78f5a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7747e9f47bf78f5a | /usr/bin/gzip >> ./life.health/private/backups/20250805_120002-life_health-database.sql.gz
+
+Backup Summary for life.health at 2025-08-05 12:00:03.738230
+Config  : ./life.health/private/backups/20250805_120002-life_health-site_config_backup.json 183.0B
+Database: ./life.health/private/backups/20250805_120002-life_health-database.sql.gz         267.8KiB
+Backup for Site life.health has been successfully completed

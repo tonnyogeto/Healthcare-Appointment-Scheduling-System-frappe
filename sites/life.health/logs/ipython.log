@@ -1,0 +1,29 @@
+2025-07-29 12:58:27,524 INFO ipython === bench console session ===
+2025-07-29 12:58:27,524 INFO ipython frappe.get_doc("Appointment","AP-0037")
+
+frappe.get_doc("Appointment","AP-0037")
+2025-07-29 12:58:27,525 INFO ipython frappe.get_doc("Appointment","AP-0037")
+
+frappe.get_doc("Appointment","AP-0037")
+2025-07-29 12:58:27,525 INFO ipython clear
+2025-07-29 12:58:27,525 INFO ipython === session end ===
+2025-07-31 12:24:02,909 INFO ipython === bench console session ===
+2025-07-31 12:24:02,910 INFO ipython frappe.get_doc("Appointment","AP-0037")
+
+frappe.get_doc("Appointment","AP-0037")
+2025-07-31 12:24:02,911 INFO ipython frappe.get_doc("Appointment","AP-0037")
+
+frappe.get_doc("Appointment")
+2025-07-31 12:24:02,911 INFO ipython frappe.get_doc("Appointment","AP-0037")
+
+frappe.get_doc("Doctor","DR-0038")
+2025-07-31 12:24:02,912 INFO ipython frappe.get_doc("Appointment","AP-0037")
+
+frappe.get_doc("Doctor","DR-0031")
+2025-07-31 12:24:02,912 INFO ipython frappe.get_doc("Appointment","AP-0037")
+
+frappe.get_doc("Doctor", DR-0031)
+2025-07-31 12:24:02,912 INFO ipython frappe.get_doc("Appointment","AP-0037")
+
+frappe.get_doc("Doctor", "DR-0031")
+2025-07-31 12:24:02,912 INFO ipython === session end ===
