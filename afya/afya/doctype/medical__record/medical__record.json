@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MR-{####}",
+ "creation": "2025-08-12 09:09:07.745529",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "patient",
+  "appointment",
+  "version",
+  "doctor",
+  "column_break_ihxn",
+  "diagnosis",
+  "attachment",
+  "status",
+  "created_by_portal",
+  "section_break_vizl",
+  "lab_result",
+  "prescription",
+  "vital_signs"
+ ],
+ "fields": [
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Patient",
+   "options": "Patient",
+   "read_only": 1
+  },
+  {
+   "fieldname": "appointment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Appointment",
+   "options": "Appointment"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Int",
+   "label": "Version"
+  },
+  {
+   "fieldname": "doctor",
+   "fieldtype": "Link",
+   "label": "Doctor",
+   "options": "Doctor",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ihxn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "diagnosis",
+   "fieldtype": "Data",
+   "label": "Diagnosis",
+   "reqd": 1
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "label": "Attachment"
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nClosed\nFollow-up Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "created_by_portal",
+   "fieldtype": "Check",
+   "label": "Created By Portal"
+  },
+  {
+   "fieldname": "section_break_vizl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lab_result",
+   "fieldtype": "Table",
+   "label": "Lab Result",
+   "options": "Lab Result",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prescription",
+   "fieldtype": "Table",
+   "label": "Prescription",
+   "options": "Prescription",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vital_signs",
+   "fieldtype": "Table",
+   "label": "Vital Signs",
+   "options": "Vital Signs"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-12 15:23:38.582708",
+ "modified_by": "Administrator",
+ "module": "Afya",
+ "name": "Medical  Record",
+ "naming_rule": "Expression",
+ "owner": "tonnymaishaogeto@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Doctor",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Patient",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Lab Staff",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -5,3 +5,33 @@
 tags
 node_modules
 __pycache__
+
+# Python
+*.pyc
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Virtualenv (if inside app)
+env/
+
+# Bench-generated
+patches.txt
+
+# Frontend assets (built)
+public/js/dist/
+public/css/
+
+# VSCode
+.vscode/
+
+# Local environment
+.env
